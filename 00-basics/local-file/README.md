@@ -1,6 +1,11 @@
 # 00 Basics - Local File
 
-A zero-cost Terraform exercise.
+## Lesson intent
+This is your warm-up drill: no AWS, no cloud bill, just Terraform lifecycle.
+
+## Sports analogy
+Like passing drills in training, you repeat the core motion until it feels natural:
+write config -> plan -> apply -> destroy.
 
 ## Commands
 

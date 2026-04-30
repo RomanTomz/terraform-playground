@@ -1,5 +1,9 @@
 # Modules Environment - Prod
 
-Calls the reusable S3 module for the prod environment.
+## Lesson intent
+Use the same module pattern for production-style inputs.
 
-⚠️ Cost warning: S3 costs can accrue. Destroy when done.
+## Sports analogy
+Prod is match day: same tactics as training, but tighter discipline and review.
+
+⚠️ Cost warning: destroy resources when this learning exercise is complete.

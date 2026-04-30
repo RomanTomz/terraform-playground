@@ -1,5 +1,9 @@
 # Modules Environment - Dev
 
-Calls the reusable S3 module for the dev environment.
+## Lesson intent
+Call the shared module with development-friendly values.
 
-⚠️ Cost warning: S3 costs can accrue. Destroy when done.
+## Sports analogy
+Dev is like a training scrimmage: same playbook, lower stakes, quick iteration.
+
+⚠️ Cost warning: destroy resources when done.

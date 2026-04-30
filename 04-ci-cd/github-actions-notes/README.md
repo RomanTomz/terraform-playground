@@ -1,5 +1,10 @@
 # CI/CD Notes
 
-See `.github/workflows` for examples.
+## Lesson intent
+Understand automated Terraform checks and why apply stays manual.
 
-Apply is manual to avoid accidental cost/incidents.
+## Sports analogy
+CI is the video assistant referee checking your play before kickoff.
+Manual apply is the head coach's final go/no-go decision.
+
+See `.github/workflows` for examples.
