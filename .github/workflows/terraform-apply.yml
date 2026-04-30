@@ -1,0 +1,30 @@
+name: Terraform Apply (Manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      working_directory:
+        description: "Folder to apply (example: 00-basics/local-file)"
+        required: true
+        default: "00-basics/local-file"
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Why manual apply?
+        run: echo "Apply is manual to avoid accidental infrastructure changes and unexpected cost."
+
+      - name: Terraform init
+        working-directory: ${{ github.event.inputs.working_directory }}
+        run: terraform init
+
+      - name: Terraform apply
+        working-directory: ${{ github.event.inputs.working_directory }}
+        run: terraform apply -auto-approve
