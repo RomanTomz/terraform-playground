@@ -12,3 +12,7 @@ Terraform intent here:
 Structure:
 - reusable module: `modules/s3-bucket/`
 - callers: `environments/dev/` and `environments/prod/`
+
+
+## Hands-on
+Use `exercises.md` in this chapter for guided practice drills.

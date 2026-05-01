@@ -11,3 +11,7 @@ Terraform intent here:
 
 Project:
 - `lightsail-app/`
+
+
+## Hands-on
+Use `exercises.md` in this chapter for guided practice drills.

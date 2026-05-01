@@ -12,3 +12,7 @@ Terraform intent here:
 Exercises:
 - `local-state/`
 - `remote-state-s3-dynamodb/`
+
+
+## Hands-on
+Use `exercises.md` in this chapter for guided practice drills.

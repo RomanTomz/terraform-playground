@@ -12,3 +12,7 @@ Intent of this chapter: learn Terraform's core flow without cloud cost pressure.
 Start with:
 - `local-file/` for first resource lifecycle
 - `variables-outputs/` for reusable inputs and visible results
+
+
+## Hands-on
+Use `exercises.md` in this chapter for guided practice drills.

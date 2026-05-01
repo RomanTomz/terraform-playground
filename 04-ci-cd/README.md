@@ -12,3 +12,7 @@ Terraform intent here:
 See:
 - `.github/workflows/`
 - `github-actions-notes/`
+
+
+## Hands-on
+Use `exercises.md` in this chapter for guided practice drills.

@@ -15,3 +15,7 @@ Exercises:
 - `security-group/`
 
 ⚠️ Cost and safety: keep resources tiny, verify plan, and always run `terraform destroy`.
+
+
+## Hands-on
+Use `exercises.md` in this chapter for guided practice drills.
