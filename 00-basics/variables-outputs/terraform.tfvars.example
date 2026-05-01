@@ -1,0 +1,2 @@
+project_name = "my-learning-project"
+environments = ["dev", "stage", "prod"]
